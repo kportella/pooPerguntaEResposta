@@ -2,6 +2,9 @@ namespace pooPerguntaEResposta
 {
     public class Pergunta
     {
+        public string testeA;
+        private string testeB;
+        protected string testeC;
         public Pergunta()
         {
             this.Texto = "";
